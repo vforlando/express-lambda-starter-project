@@ -13,6 +13,7 @@ app.engine('.ejs', ejs)
 
 router.use(compression())
 
+
 router.use(cors())
 router.use(express.json());
 router.use(express.urlencoded({
